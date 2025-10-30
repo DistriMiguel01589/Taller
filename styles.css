@@ -1,0 +1,153 @@
+body {
+    font-family: Comic Sans MS;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(133, 236, 250, 0.548);
+    color: #273c75;
+}
+
+header{
+    background-color: #273c75;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p{
+    font-style: italic;
+}
+
+nav {
+    background-color: #2f55b4c4;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    max-width: 900px;
+    margin: 20px auto;
+    background: rgb(170, 220, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+section h2{
+    border-bottom: 2px solid #718093;
+    padding-bottom: 5px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.perfil img{
+    width: 50%;
+    border-radius: 70%;
+    border: 3px solid #273c75;
+}
+
+ul ol{
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid #dcdde1;
+}
+
+th{
+    background-color: #9cb5d6;
+    color: #273c75;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f1f2f6;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+input, textarea, select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button{
+    background-color: #273c75;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Comic sans MS;
+}
+
+button:hover{
+    background-color: #384d88;
+}
+
+footer{
+    background-color: #5e3494;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+.box-demo{
+    background-color: #9c88ff;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border: 3px solid #8c7ae6;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.galleria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria img{
+    width: 30%;
+    border-radius: 8px;
+}

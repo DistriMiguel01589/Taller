@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi portafolio personal</h1>
+        <p>Aprendiendo HTML y CSS dede cero</p>
+    </header>
+
+    <nav>
+        <a href="#perfil">Perfil</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="perfil">
+            <h2>Sobre mi</h2>
+            <div class="perfil">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA6wzMZdYT9eUHqMVbWo3h6PIvJsoEAAKViw&s">
+                <img src="./images.jfif" alt="Foto de perfil" height="257px">
+                <div>
+                    <p>Hola,somos<strong> Miguel y Luis</strong> , estudiantes de desarrolo de paginas web</p>
+                    <p>Nos gusta crear sitios web y aprender herramientas cada dia</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>    
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Trabajo en equipo</li>
+            </ul>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Trabajo en equipo</li>
+            </ol>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Recientes</h2>
+            <div class="galeria">
+                <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/v4/yD/r/5D8s-GsHJlJ.png" alt="Facebook" width="55px">
+                <img src="https://www.divxland.org/wp-content/uploads/2025/02/messenger-thumbnail.png" alt="Messenger" width="55px">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram" width="55px">
+            </div>
+
+            <div class="box-demo">
+                Ejemplo del modelo de la caja (Box Model)
+            </div>
+            <h3>Tabla de proyectos</h3>
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tecnología</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mi primera web</td>
+                        <td>HTML + CSS</td>
+                        <td>2025</td>
+
+                    </tr>
+                    <tr>
+                        <td>App de tareas</td>
+                        <td>Vue.js</td>
+                        <td>2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contactos">
+            <h2>Contactos</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="su nombre">
+
+                <label for="correo">correo electronico</label>
+                <input type="email"id="correo" placeholder="su@correo.com">
+
+                <label for="asunto">Motivo de contacto</label>
+
+                <select name="asunto" id="">
+                    <option>Consulta</option>
+                    <option>Colaboracion</option>
+                    <option>Otro</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="" id="mensaje" rows="4" placeholder="escribe tu mensaje aqui..."></textarea>
+
+                <button type="submit">Enviar</button>
+                 
+                
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy;2025 mi portafolio - creando, usando html y css
+    </footer>
+
+</body>
+</html>
